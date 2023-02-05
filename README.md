@@ -21,12 +21,21 @@
 You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
 # Tools and library Used
-  Pandas
-  Numpy
-  Seaborn
-  Matplotlib
-  sklearn
-  stats
+  - Pandas
+  - Numpy
+  - Seaborn
+  - Matplotlib
+  - sklearn
+  - statsModel
   
-Here I create linear model to predict the prection value
-Here i'm using for assumtion is linearity,normalization etc
+# Models Which I use:
+- Simple Linear Regression using SkLearn (Automatic)
+- Simple Linear Regression using StatsModel (Manual)
+- Ridge Regression
+- Lasso Regression
+- ElasticNet Regression
+
+**For Above models I got accuracy in the range of 83 to 86,which is good,I can improve the accuracy with other models like Bagging or Boosting or Neural Network,but in problem statement they Mentioned Explanablity Is more important, so good to go with simple regression models.**
+
+
+This model build by [Mohamed Kalanthar Hussain](jaheerkalanthar816@hotmail.com) feel free to contact me :bearded_person:
